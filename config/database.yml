@@ -77,11 +77,6 @@ test:
 #
 # You can use this database configuration with:
 #
-#   production:
-#     url: <%= ENV['DATABASE_URL'] %>
-#
 production:
-  <<: *default
-  database: ramirous_production
-  username: ramirous
-  password: <%= ENV['RAMIROUS_DATABASE_PASSWORD'] %>
+  url: postgres://ddjbfdykjigfde:Qada7HBy4PPal4Lvhh9jekr0Pn@ec2-54-217-238-93.eu-west-1.compute.amazonaws.com:5432/dfevq5cp3g453n 
+#
